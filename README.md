@@ -41,8 +41,18 @@ ranger
 Then persist the files and make fish the default shell
 
 ```
-curl insert_url_here --create-dirs -sLo ~/.config/fish/config.fish
-curl insert_url_here --create-dirs -sLo ~/.config/fish/fishfile
+curl https://raw.githubusercontent.com/plainas/myfishconfig/master/config.fish --create-dirs -sLo ~/.config/fish/config.fish
+curl https://raw.githubusercontent.com/plainas/myfishconfig/master/fishfile --create-dirs -sLo ~/.config/fish/fishfile
 
 chsh -s `which fish`
 ```
+
+The fish config file will take care of the rest automatically:
+  
+  * install fisher
+  * create ~/scripts folder and add it to $PATH
+
+
+## TODO
+
+Persist the scripts folder. I am not sure I need or will use this much.
