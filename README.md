@@ -34,6 +34,7 @@ ncdu
 fd-find
 build-essential
 vscode
+zim
 tq
 ranger
 ```
