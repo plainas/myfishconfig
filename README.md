@@ -18,6 +18,9 @@ If more evolved stuff is needed, self-bootstrap it in the `config.fish` file ins
 First install a bunch of stuff, package names may vary across distros:
 
 ```
+# example for installing most of them on debian/mint/ubuntu
+# apt install fish curl silversearcher-ag git vim httpie jq gron python3-pip ncdu fd-find build-essential zim
+
 fish
 curl
 ag
@@ -43,7 +46,7 @@ Then persist the files and make fish the default shell
 
 ```
 curl https://raw.githubusercontent.com/plainas/myfishconfig/master/config.fish --create-dirs -sLo ~/.config/fish/config.fish
-curl https://raw.githubusercontent.com/plainas/myfishconfig/master/fishfile --create-dirs -sLo ~/.config/fish/fishfile
+curl https://raw.githubusercontent.com/plainas/myfishconfig/master/fishfile --create-dirs -sLo ~/.config/fish/fish_plugins
 
 chsh -s `which fish`
 ```
