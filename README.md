@@ -19,7 +19,7 @@ First install a bunch of stuff, package names may vary across distros:
 
 ```
 # example for installing most of them on debian/mint/ubuntu
-# apt install fish curl silversearcher-ag git vim httpie jq gron python3-pip ncdu fd-find build-essential zim
+# apt install fish curl silversearcher-ag git vim httpie jq gron python3-pip ncdu fd-find build-essential zim percol
 
 fish
 curl
