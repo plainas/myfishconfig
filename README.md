@@ -56,6 +56,18 @@ The fish config file will take care of the rest automatically:
   * install fisher
   * create ~/scripts folder and add it to $PATH
 
+## Extra steps required for installation on OSX
+
+Add fish to list of existing shells in ''/etc/shells'' before tunning chsh
+
+Add brew path to fish user paths
+
+```
+set -U fish_user_paths /opt/homebrew/bin $fish_user_paths
+```
+
+More details here:
+https://gist.github.com/gagarine/cf3f65f9be6aa0e105b184376f765262
 
 ## TODO
 
