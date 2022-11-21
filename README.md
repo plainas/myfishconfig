@@ -40,6 +40,7 @@ vscode
 zim
 tq
 ranger
+fx
 ```
 
 Then persist the files and make fish the default shell
