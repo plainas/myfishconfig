@@ -41,6 +41,7 @@ zim
 tq
 ranger
 fx
+neovim
 ```
 
 Then persist the files and make fish the default shell
